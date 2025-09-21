@@ -1,2 +1,17 @@
 # JAVA-PROGRAMS
-A collection of java programs for practice, to build consistency and problem - solving skills.
+
+A collection of Java programs for practice, to build consistency and problem-solving skills.
+
+🗂 Contents
+
+✅ Basic Programs (loops, conditionals, functions)
+
+✅ Arrays & Matrix Problems
+
+✅ Number System Conversions (Binary, Decimal, etc.)
+
+✅ Patterns (Stars, Numbers, Alphabets)
+
+✅ Sorting & Searching
+
+✅ Object-Oriented Concepts (coming soon)
