@@ -4,7 +4,7 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class readFile{
     public static void  main(String [] args){
-        File myfile = new File("Example.txt");
+        File myfile = new File("https://github.com/mishikabhandari/JAVA-PROGRAMS/blob/a14899b31b4208e47bc03ef78fa4ecfc1dac7397/Example.txt");
         try{
             try (Scanner sc = new Scanner(myfile)) {
                 while (sc.hasNextLine()) {
