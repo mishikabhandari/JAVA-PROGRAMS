@@ -4,7 +4,11 @@ import java.io.FileNotFoundException;
 import java.util.Scanner;
 public class readFile{
     public static void  main(String [] args){
-        File myfile = new File("https://github.com/mishikabhandari/JAVA-PROGRAMS/blob/a14899b31b4208e47bc03ef78fa4ecfc1dac7397/Example.txt");
+        if (args.length < 1) {
+            System.err.println("Please provide the file path or URI as a command-line argument.");
+            return;
+        }
+        File myfile = new File(args[0]);
         try{
             try (Scanner sc = new Scanner(myfile)) {
                 while (sc.hasNextLine()) {
