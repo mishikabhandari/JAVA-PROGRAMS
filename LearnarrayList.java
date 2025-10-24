@@ -4,7 +4,7 @@
 import java.util.ArrayList;
 public class LearnarrayList{
     public static void main(String [] args){
-        ArrayList <Integer> numbers = new ArrayList <Integer> ();
+        ArrayList<Integer> numbers = new ArrayList <Integer>();
         for(int i=1;i<=5;i++){
             numbers.add(i);
         }
