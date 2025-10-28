@@ -23,3 +23,7 @@ A collection of Java programs for practice, to build consistency and problem-sol
 ✅ File Handling
 
 ✅ Collection Framework
+
+✅ Wrapper classes and generics 
+
+✅ Multithreading
